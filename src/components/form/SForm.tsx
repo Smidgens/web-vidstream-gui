@@ -245,7 +245,7 @@ const FormSlider:FC<{
 			max={ props.config.max }
 			step={ props.config.step }
 			value={ props.value }
-			className="form-range shadow-nonex"
+			className="form-range"
 			onChange={(e) => props.onChange(Number(e.target.value))}
 			/>
 			{ vlabel }
@@ -418,7 +418,9 @@ const PresetPicker:FC<{
 			data-bs-toggle="dropdown"
 			aria-expanded="false"
 			>
-				<Icon name="cog"/>
+				<small>
+					Preset...
+				</small>
 			</button>
 			<ul className="dropdown-menu">
 				{ doptions }

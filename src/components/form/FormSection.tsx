@@ -21,25 +21,22 @@ export const FormSection:FC<{
 };
 
 const BoxWrapper = styled.div`
-
 	display:flex;
 	flex-direction: column;
-
 	.title {
 		background:rgba(0,0,0,0.1);
-		color:#181818;
 		display:inline;
 		padding:0.25em 0.5em;
-		border-top-left-radius:0.25em;
-		border-top-right-radius:0.25em;
+		border-radius: 0.2em 0.2em 0em 0em;
 		margin-right:auto;
 		margin-left: 1em;
+		font-weight: bold;
 	}
 
 	.box {
 		padding:1em;
-		border:1px solid rgba(0,0,0,0.2);
-		border-radius: 0.25em;
+		border:1px solid rgba(0,0,0,0.1);
+		border-radius: 0.2em;
 	}
 
 `;

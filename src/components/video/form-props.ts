@@ -5,7 +5,6 @@ import { FormProp } from "../form";
 import * as Constants from "./constants";
 
 type DrawerValues = Omit<ConfigValues, "constraints.skip_variants">;
-
 type PropMap = Readonly<Record<keyof DrawerValues,FormProp>>;
 
 export const FORM_PROPS:PropMap = {
