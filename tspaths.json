@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@components/*": ["./src/components/*"],
+			"@pages/*": ["./src/pages/*"],
+			"@ui": ["./modules/@ui"],
+			"@ui/code": ["./modules/@ui-code"],
+			"@video": ["./modules/@video"],
+			"@utils": ["./modules/@utils"]
+		}
+	}
+}
